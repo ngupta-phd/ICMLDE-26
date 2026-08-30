@@ -1,0 +1,25 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated visualizations (keep the folder)
+outputs/gradcam/*
+!outputs/gradcam/.gitkeep
+
+# Local YOLO test output (legacy)
+runs/
+test_output/
+# Environment / secrets
+.env
+*.key

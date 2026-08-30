@@ -1,0 +1,29 @@
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs and logs
+outputs/*
+!outputs/.gitkeep
+*.log
+gradcam_result.jpg
+segmentation_result.jpg
